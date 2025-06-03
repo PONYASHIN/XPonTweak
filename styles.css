@@ -1,0 +1,22 @@
+.center-container {
+  display: flex;
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  height: 180px;           /* нужна высота */
+}
+.btn-gradient {
+  padding: 12px 24px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background: linear-gradient(45deg, #ff8a00, #e52e71);
+  background-size: 200% 200%;
+  transition: 0.5s;
+  box-shadow: 0 4px 15px 0 rgba(232, 81, 90, 0.6);
+}
+
+.btn-gradient:hover {
+  background-position: right center;
+}
